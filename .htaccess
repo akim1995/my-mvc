@@ -1,2 +1,5 @@
-#Don't show files and folders if there is not index file
-Options -Indexes 
+<IfModule mod_rewrite.c>
+	REwriteEngine on
+	RewriteRule ^$ public/ [L]
+	RewriteRule (.*) public/$1
+</IfModule>
