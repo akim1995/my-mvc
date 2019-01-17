@@ -1,9 +1,9 @@
 <?php
 // DB Params
 define('DB_HOST', 'localhost');
-define('DB_USER', 'khalitov');
-define('DB_PASS', '123');
-define('DB_NAME', 'amvc');
+define('DB_USER', 'your_user');
+define('DB_PASS', 'your_pass');
+define('DB_NAME', 'your_db_name');
 	// App Root
 /* define('APPROOT', dirname(dirname(__FILE__))); */
 define('APPROOT', $_SERVER['DOCUMENT_ROOT'] . '/app');
@@ -12,5 +12,5 @@ define('APPROOT', $_SERVER['DOCUMENT_ROOT'] . '/app');
 define('URLROOT', $root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . 
 	'://' . $_SERVER['HTTP_HOST'] . '/');
 	// Site Name
-define('SITENAME', 'MyMVC');
+define('SITENAME', 'your_sitename');
 
