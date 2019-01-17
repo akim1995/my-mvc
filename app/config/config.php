@@ -1,4 +1,9 @@
 <?php
+// DB Params
+define('DB_HOST', 'localhost');
+define('DB_USER', 'khalitov');
+define('DB_PASS', '123');
+define('DB_NAME', 'amvc');
 	// App Root
 /* define('APPROOT', dirname(dirname(__FILE__))); */
 define('APPROOT', $_SERVER['DOCUMENT_ROOT'] . '/app');
